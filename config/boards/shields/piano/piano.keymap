@@ -22,13 +22,14 @@
  
 /* Layers */
 #define AL1 0
-#define AL2 1
+
+/* #define AL2 1
 #define SM1 2
 #define SM2 3	
 #define NM1 4	
 #define SYS 5
 #define BT 6	
-#define AL2U 7
+#define AL2U 7*/
 / { 
     combos {
         compatible = "zmk,combos";
@@ -147,9 +148,9 @@
                 
        		alpha1 {
 		bindings = <
-		 		&hm_l LCTL L 	&hm_l LALT G 	&hm_l LGUI D		&hm_r RGUI H 	&hm_r RALT U    	&hm_r RCTL O	  
-		&hl_l NM1 I	&hl_l SM2 S	&hl_l SM1 R	&hl_l SYS T 	 	&hl_r SYS N    	&hl_r SM1 E   		&hl_r SM2 A 	&hl_r NM1 C
-			 	 		 		&mt LC(LS(LALT)) SPC &key_repeat  &caps_alpha2macro	&alpha2macro	 	
+				&bt BT_PRV	&bt BT_NXT	&trans 			&bt BT_CLR 	&bt BT_CLR	&bt BT_CLR	
+		&bootloader  	&trans 		&trans 		 &bt BT_CLR 			&bt BT_CLR	&bt BT_CLR
+		 	 	 				&kp V	&kp W   &kp M	&bt BT_CLR
 		>;
 		};
        		alpha2 {
