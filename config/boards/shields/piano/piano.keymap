@@ -148,9 +148,9 @@
                 
        		alpha1 {
 		bindings = <
-				&bt BT_PRV	&bt BT_NXT	&trans 			&bt BT_CLR 	&bt BT_CLR	&bt BT_CLR	
-		&bootloader  	&trans 		&trans 		 &bt BT_CLR 			&bt BT_CLR	&bt BT_CLR
-		 	 	 				&kp V	&kp W   &kp M	&bt BT_CLR
+				&kp LS(V)	&kp LS(W)	&kp LS(M) 	 	&kp LS(F)    	&trans		&kp LS(Z)	
+		&kp LS(Q) 	&kp LS(J) 	&kp LS(P)	&kp LS(K)		&kp LS(B)	&kp COMMA	&kp LS(X)	&bt BT_CLR 
+			 	&trans 		&trans 			&trans	&none
 		>;
 		};
        		alpha2 {
